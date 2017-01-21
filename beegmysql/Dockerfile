@@ -1,4 +1,4 @@
-FROM beegmysql:latest
+FROM mysql:latest
 LABEL org.freenas.interactive="false" \
       org.freenas.version="5.7" \
       org.freenas.upgradeable="false" \
