@@ -1,6 +1,7 @@
-FROM beegdock/phpmyadmin:latest
+FROM phpmyadmin/phpmyadmin:latest
 LABEL org.freenas.interactive="true" \
-      org.freenas.command="/bin/sh" \
-      org.freenas.version="1" \
+      org.freenas.expose-ports-at-host="true" \
+      org.freenas.autostart="true" \
+      org.freenas.port-mappings="8080:80/tcp" \
       org.freenas.upgradeable="false" 
 
