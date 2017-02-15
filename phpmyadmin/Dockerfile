@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM beegdock/phpmyadmin:latest
 LABEL org.freenas.interactive="true" \
       org.freenas.command="/bin/sh" \
       org.freenas.version="1" \
