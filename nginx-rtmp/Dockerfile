@@ -1,4 +1,4 @@
-FROM brocaar/nginx-rtmp-dockerfile:latest
+FROM beegdock/nginx-rtmp-dockerfile:latest
 LABEL org.freenas.interactive="true" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
