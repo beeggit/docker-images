@@ -1,4 +1,4 @@
-FROM beegdock/nginx-rtmp-dockerfile:latest
+FROM streamcat/streamcat-rtmp:latest
 LABEL org.freenas.interactive="true" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
