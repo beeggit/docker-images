@@ -1,4 +1,4 @@
-FROM linagora/cyrus-imapd:latest
+FROM linagora/cyrus-imap:latest
 LABEL org.freenas.interactive="true" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
